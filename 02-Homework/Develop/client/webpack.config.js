@@ -13,7 +13,6 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      header: './src/js/header.js',
       editor: './src/js/editor.js',
     },
     // Output for our bundles
@@ -38,9 +37,9 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Jate',
-        short_name: 'Jate',
-        description: 'The one and only text editor!',
+        name: 'Just Another Text Editor',
+        short_name: 'J.A.T.E',
+        description: 'Takes notes with JavaScript system highlighting!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: '/',
