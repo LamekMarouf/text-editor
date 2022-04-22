@@ -34,5 +34,7 @@ THEN I should have proper build scripts for a webpack application
 ```
 
 ## Screenshot of Project
-
 ![image](https://user-images.githubusercontent.com/89329958/164605426-72d968e3-543f-42b8-ac7e-1a3d09f33a7b.png)
+
+## Deployed Link
+https://lameks-text-editor.herokuapp.com/
